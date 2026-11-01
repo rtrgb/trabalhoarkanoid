@@ -1,0 +1,1 @@
+clang++ -std=c++17 menu.cpp game.cpp -o arcanoeoid -I/opt/homebrew/include -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system -Wl,-rpath,/opt/homebrew/lib
